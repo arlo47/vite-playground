@@ -1,0 +1,21 @@
+{
+  "name": "vite-playground",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "npx vite",
+    "build": "npx tsc && vite build",
+    "preview": "npx vite preview"
+  },
+  "devDependencies": {
+    "@types/ejs": "^3.1.5",
+    "sass": "^1.87.0",
+    "typescript": "~5.8.3",
+    "vite": "^6.3.5"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "bootstrap": "^5.3.6"
+  }
+}
