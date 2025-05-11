@@ -1,2 +1,21 @@
 // Import all of Bootstrap's CSS
 @import "~bootstrap/scss/bootstrap";
+
+body {
+  min-height: 100vh;
+  display: flex;
+}
+.sidebar {
+  width: 250px;
+}
+.sidebar .nav-link {
+  color: #adb5bd;
+}
+.sidebar .nav-link.active {
+  background-color: #495057;
+  color: #fff;
+}
+.content {
+  flex-grow: 1;
+  padding: 20px;
+}
