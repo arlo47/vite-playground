@@ -1,0 +1,38 @@
+<%- include('views/header.html'); %> <%- include('views/sidebar.html'); %>
+
+<div class="content">
+  <h1>Table</h1>
+
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th scope="col">Session ID</th>
+        <th scope="col">EVSE UID</th>
+        <th scope="col">Energy</th>
+        <th scope="col">Cost</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>EV0192</td>
+        <td>1.5 kwh</td>
+        <td>0.07$</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>EV0001</td>
+        <td>1.5 kwh</td>
+        <td>0.07$</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>EV0192</td>
+        <td>1.5 kwh</td>
+        <td>0.07$</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<%- include('views/modal.html'); %> <%- include('views/footer.html'); %>

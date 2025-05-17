@@ -1,29 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + TS</title>
-  </head>
-  <body>
-    <%- include('views/sidebar.html'); %>
+<%- include('views/header.html'); %> <%- include('views/sidebar.html'); %>
 
-    <div class="content">
-      <h1>Welcome</h1>
-      <p>This is the main content area.</p>
+<div class="content">
+  <h1>Welcome</h1>
+  <p>This is the main content area.</p>
 
-      <button
-        class="btn btn-primary"
-        data-bs-toggle="modal"
-        data-bs-target="#exampleModal"
-      >
-        Primary button
-      </button>
-    </div>
+  <button
+    class="btn btn-primary"
+    data-bs-toggle="modal"
+    data-bs-target="#exampleModal"
+  >
+    Primary button
+  </button>
+</div>
 
-    <%- include('views/modal.html'); %>
-
-    <script type="module" src="/ts/main.ts"></script>
-  </body>
-</html>
+<%- include('views/modal.html'); %> <%- include('views/footer.html'); %>
